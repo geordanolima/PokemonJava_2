@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorButtonNormal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loja de Itens"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="45dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal">
+
+            <TextView
+                android:id="@+id/Item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="77dp"
+                android:text="@string/texto_item"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Valor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="107dp"
+                android:text="@string/texto_quant"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/valor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="46dp"
+                android:text="@string/texto_valor"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/PokeRed"
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/pokebola_red" />
+
+            <TextView
+                android:id="@+id/nomeItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/PokeRed"
+                android:text="@string/PokVer"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/qtdBolaVerm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="115dp"
+                android:text="ValorPokVer"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/valorBolaVerm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="55dp"
+                android:text="@string/ValorPokVer"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/addBolaVerm"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/darker_gray"
+                android:text="@string/mais"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/PokeBlue"
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/pokebola_blue" />
+
+            <TextView
+                android:id="@+id/nomeItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/PokeBlue"
+                android:text="@string/PokAzu"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/qtdBolaAzul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="115dp"
+                android:text="@string/ValorPokeAzu"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/valorBolaAzul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="55dp"
+                android:text="@string/ValorPokeAzu"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/addBolaAzul"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/darker_gray"
+                android:text="@string/mais"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/PokeAmar"
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/ultraball" />
+
+            <TextView
+                android:id="@+id/nomeItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/PokeAmar"
+                android:text="@string/PokAma"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/qtdBolaAmarela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="115dp"
+                android:text="@string/ValorPokAma"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/valorBolaAmarela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="55dp"
+                android:text="@string/ValorPokAma"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/addBolaAma"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/darker_gray"
+                android:text="@string/mais"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/Melancia"
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/melancialeite" />
+
+            <TextView
+                android:id="@+id/nomeItem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/Melancia"
+                android:text="@string/Melancia"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/qtdMelanciaLeite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="115dp"
+                android:text="@string/ValorMelancia"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/valorMelanciaLeite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="55dp"
+                android:text="@string/ValorMelancia"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/addMelLeit"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/darker_gray"
+                android:text="@string/mais"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/Ovo"
+                android:layout_width="50dp"
+                android:layout_height="65dp"
+                app:srcCompat="@drawable/ovo" />
+
+            <TextView
+                android:id="@+id/nomeItem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/Ovo"
+                android:text="@string/OvoYoshi"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/qtdOvo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="115dp"
+                android:text="@string/ValorOvo"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/valorOvo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="55dp"
+                android:text="@string/ValorOvo"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/addOvoYoshi"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/darker_gray"
+                android:text="@string/mais"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal">
+
+            <TextView
+                android:id="@+id/pilasJogador"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="7dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="40sp"
+                tools:text="00000" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/texto_pontos"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/QuantPila"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/botaoVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Voltar"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</ScrollView>
